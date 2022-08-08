@@ -5,13 +5,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulario login adm</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <section>
+    <nav>
+        <ul class="menu">
+            <li><a href="Principal.html">Inicio</a></li>
+            <li><a href="#">Inventario</a>
+                <ul>
+                    <li><a href="acceso personal adm.html">Acceso Personal Administrativo</a></li>
+                    <li><a href="Acceso personal bodega.html">Acesso Personal Bodega</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+    <section class="form-login">
         <h5>Formulario Login</h5>
-        <input type="text" name="Usuario" value="" placeholder="Usuario">
-        <input type="password" name="Contraseña" value="" placeholder="Contraseña">
-        <input type="submit" name="" value="Ingresar">
+        <input class="controls" type="text" name="Usuario" value="" placeholder="Usuario">
+        <input class="controls" type="password" name="Contraseña" value="" placeholder="Contraseña">
+        <input class="buttons" type="submit" name="" value="Ingresar">
         <p><a href="#">¿Olvidaste tu Contraseña?</a></p>
     </section>
 </body>
