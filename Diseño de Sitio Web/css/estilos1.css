@@ -6,6 +6,12 @@ header{
     padding: 30px;
     color: rgb(122, 132, 141);   
 }
+
+body {
+    font-family: Arial;
+    background-image: url(img/fondo.jpg);
+}
+
 section{
     display: flex;
     flex-direction: row;  
